@@ -1,0 +1,10 @@
+html
+    {color: teal;}
+article div :first-child
+    {color: orange;}
+.red
+    {color: red;}
+html body h2:first-line
+    {color: yellow;}
+html body div p:first-of-type
+     {color: fuchsia;}
