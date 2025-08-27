@@ -1,0 +1,28 @@
+.red{
+    background-color: purple;
+}
+div.red div{
+    background-color: aqua;
+    width: 300px;
+    margin: 20px auto;
+}
+.div{
+    background-color: gray;
+    width: 700px;
+    border: 1px solid;
+    margin: 10px auto;
+}
+img{
+    display: block;
+}
+div.div div{
+    background-color: darkcyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

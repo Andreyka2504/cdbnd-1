@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+.pacifico-regular {
+  font-family: "Pacifico",serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.article2{
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+}
+.article2 div{
+    margin: 10px auto;
+}
+.article2 div h4{
+    margin: 5px auto;
+    border-bottom: 2px solid;
+    border-color: coral;
+    font-size: 1.4em;
+}
+h1{
+    font-family: "Pacifico", serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+@font-face{
+    font-family:"AnonymousPro";
+    src: 
+    url(AnonymousPro.woff2) format(woff2) 
+    url(AnonymousPro.woff) format(woff) 
+    url(AnonymousPro.ttf) format(TrueType);
+    font-style: normal;
+    font-display: auto;
+    font-weight: 400;
+    
+}
+h3{
+    font-family: "AnonymousPro" , serif;
+    font-style: normal;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px;
+    border-color: black;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+body p{
+    width: 500px;
+    margin: 15px auto;
+}
+.article1{
+    background-color: beige;
+    width: 700px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2{
+    font-family: Arial, sans-serif; 
+            font-weight: 600;              
+            text-align: center;            
+}
+nav {
+text-align: center;
+font-family: "Courier New", Courier, monospace;
+}
+nav a{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 160%;
+}
+.article1{
+    font-size: 120%;
+}
