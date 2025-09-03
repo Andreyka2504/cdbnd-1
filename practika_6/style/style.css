@@ -1,0 +1,41 @@
+p.imtext{
+    background: bisque;
+    padding: 10px;
+    margin: 10px;
+    border:1px solid black;
+    overflow: hidden;
+}
+p.imtext img{
+    width: 300px;
+    padding: 10px;
+    border:1px solid black;
+    margin: 5px;
+}
+b{
+    font-size: 22px;
+    font-weight: bold;
+}
+p.imtext img:nth-of-type(odd){
+    float: left;
+    clear: both;
+}
+p.imtext img:nth-of-type(even){
+    float: right;
+    clear: both;
+}
+div.fon{
+    background-image: url(../images/fon.png) ;
+    height: 500px;
+    width: 500px;
+    padding: 100px;
+    border: 20px dotted black;
+    margin: 50px auto;
+    background-color: silver;
+    background-clip: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div.fon img{
+    width: 50px;
+    height: 40px;
+}
